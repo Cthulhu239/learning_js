@@ -11,4 +11,5 @@ console.log(null >= 0); //true
 // console.log(undefined >= 0);
 
 // "===" checks the data type too along with value
-console.log(1 == "1");
+console.log(1 == "1");//true
+console.log(1 === '1'); //false;
