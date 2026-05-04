@@ -1,5 +1,5 @@
 /*
-PRIMITIVE=>
+PRIMITIVE=>(uses stack)
     string
     Number
     BigInt
@@ -9,7 +9,7 @@ PRIMITIVE=>
     symbol
 
 
-REFERENCE(non-primitive)=>
+REFERENCE(non-primitive)=>(uses heap)
     Array
     Objects
     Functions
